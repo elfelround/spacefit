@@ -8,7 +8,7 @@ const API_PORT = 3001;
 const app = express();
 const router = express.Router();
 
-// this is our MongoDB database
+// this is our MongoDB database, change this to CLOUD MONGO link
 const dbRoute = "mongodb://jelo:a9bc839993@ds151382.mlab.com:51382/jelotest";
 
 // connects our back end code with the database

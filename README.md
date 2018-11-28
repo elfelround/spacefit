@@ -1,5 +1,6 @@
 cd client && yarn start
 
+cd backend && node server.js
 
 este proyecto esta hecho con ubuntu 18 (linux), se recomienda usar linux para su ejecucion
 
