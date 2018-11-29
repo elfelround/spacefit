@@ -1,6 +1,7 @@
 // /client/App.js
 import React, { Component } from "react";
 import axios from "axios";
+import './css/style.css';
 
 class App extends Component {
   // initialize our state 
@@ -120,7 +121,7 @@ class App extends Component {
           <input
             type="text"
             onChange={e => this.setState({ message: e.target.value })}
-            placeholder="add something in the database"
+            placeholder="add to database"
             style={{ width: "200px" }}
           />
           <button onClick={() => this.putDataToDB(this.state.message)}>
@@ -132,7 +133,7 @@ class App extends Component {
             type="text"
             style={{ width: "200px" }}
             onChange={e => this.setState({ idToDelete: e.target.value })}
-            placeholder="put id of item to delete here"
+            placeholder="id del item a borrar"
           />
           <button onClick={() => this.deleteFromDB(this.state.idToDelete)}>
             DELETE

@@ -1,9 +1,13 @@
+![alt text](https://github.com/elfelround/spacefit/blob/master/ericklestrange.png)
+
+TO RUN THIS APP****
 main directory and $npm start
 
-cd client && yarn start
+**to install**
+ir a root y hacer yarn install
+ir a client y hacer yarn install
+ir a backend y hacer yarn install
 
-cd backend && node server.js
-back on 3001
 
 este proyecto esta hecho con ubuntu 18 (linux), se recomienda usar linux para su ejecucion
 

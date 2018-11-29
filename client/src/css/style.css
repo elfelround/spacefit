@@ -18,3 +18,59 @@ svg {
   width: 90%;
   max-height: 90%;
 }
+
+form {
+  margin-bottom: 30px;
+}
+
+input {
+  background: white;
+  color: #21a1a2;
+  border: 2px solid #21a1e1;
+  padding: 14px 40px;
+  font-size: 18px;
+  display: inline-block;
+}
+
+input[type="text"], input[type="email"] {
+  border: none;
+  border: 2px solid #21a1e1;
+}
+
+
+.input-group {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+}
+.input-group input {
+  padding: 15px 5px;
+}
+.input-group label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-family: "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  font-style: italic;
+  font-size: 18px;
+  color: #999;
+  pointer-events: none;
+  -webkit-transition: all 0.15s ease-out 0s;
+  -moz-transition: all 0.15s ease-out 0s;
+  transition: all 0.15s ease-out 0s;
+}
+
+button {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  border-radius: 4px;
+  font-family: Arial;
+  color: #fafafa;
+  font-size: 27px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
