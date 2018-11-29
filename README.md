@@ -1,6 +1,9 @@
+main directory and $npm start
+
 cd client && yarn start
 
 cd backend && node server.js
+back on 3001
 
 este proyecto esta hecho con ubuntu 18 (linux), se recomienda usar linux para su ejecucion
 

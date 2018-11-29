@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(#4F65DF, #55CCE1);
+}
+
+h1 {
+  color: #7cf;
+  position: relative;
+  left: 10%;
+  font-family: Montserrat, sans-serif;
+}
+
+svg {
+  width: 90%;
+  max-height: 90%;
+}
